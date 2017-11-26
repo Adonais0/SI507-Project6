@@ -79,7 +79,7 @@ def csv_to_dict_list(csvFile,i,s_id):
 states_list = [{'id':1,'name':'arkansas'},{'id':2,'name':'michigan'},{'id':3,'name':'california'}]
 # Make sure to commit your database changes with .commit() on the database connection.
 db_connection,db_cursor = get_connection_and_cursor()#connect to the database
-# setup_database()
+setup_database()
 dict_list = []
 ar_dict_list = csv_to_dict_list('arkansas.csv',1,1)
 print(len(ar_dict_list))

@@ -1,3 +1,4 @@
+#database name: chuyao_507project5
 # SI 507 F17 - Project 6 - Databases & Planning
 
 ### DEADLINE: Monday, November 27th at 11:59 PM
